@@ -250,3 +250,44 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+  .category-indoor-plants {
+      background-color: #e0f7fa;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  .category-outdoor-plants {
+      background-color: #ffecb3;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  /* Generic styling for category containers */
+  .category-container {
+      width: 100%;
+      margin-bottom: 40px;
+  }
+
+.category-title {
+    text-align: center;
+    /* Centers text horizontally */
+    font-size: 1.8rem;
+    /* Adjust the size as needed */
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+    /* Optional: Add a contrasting color */
+}
+
+.cart-item-count {
+    position: absolute;
+    top: 5.5%;
+    left: 96.3%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    color: white;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+}
